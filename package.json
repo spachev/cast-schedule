@@ -1,24 +1,26 @@
 {
-  "name": "castv2-client",
-  "version": "0.0.8",
-  "description": "A Chromecast client based on the new (CASTV2) protocol",
-  "author": "thibauts",
-  "license": "MIT",
-  "main": "index.js",
-  "dependencies": {
-    "debug": "~1.0.1",
-    "castv2": "~0.1.4"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/spachev/cast-schedule
-  },
-  "keywords": [
-    "chromecast",
-    "castv2",
-    "cast-schedule"   
-  ]
+	"name": "cast-schedule",
+	"version": "0.0.1",
+	"description": "A Chromecast client that plays media based on a scheudle found at a URL",
+	"author": "spachev",
+	"license": "MIT",
+	"main": "index.js",
+	"dependencies": {
+		"debug": "~1.0.1",
+		"castv2": "~0.1.4",
+		"castv2-client": "~0.0.8",
+		"mdns": "~2.2.8"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/spachev/cast-schedule"
+	},
+	"keywords": [
+		"chromecast",
+		"castv2",
+		"cast-schedule"
+	]
 }
